@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import Logo from '../../assets/images/logo2.avif'
 import useUser from '../../hooks/users/useUser'
 import { useQueryClient } from 'react-query'
-import UserProfileContainer from '../userProfileContainer'
+import UserProfileContainer from '../UserProfileContainer'
 import LeftContainer from '../../containers/LeftContainer'
 
 const AdminHeader = () => {
